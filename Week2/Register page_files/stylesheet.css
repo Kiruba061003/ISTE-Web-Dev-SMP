@@ -1,0 +1,107 @@
+*
+{
+  margin-top: 0;
+
+}
+
+ul {  
+    list-style-type: none;  
+    margin: 0;  
+    padding: 0px;  
+    overflow: hidden;  
+    background-color: rgb(152, 32, 208);  
+  }  
+    
+  li {  
+    float: left;  
+  }  
+    
+li a {   
+    display: block;  
+    color:antiquewhite;  
+    margin-left: 0;
+    margin-right: 0;
+    font-size:20px;  
+    text-align: center;  
+    padding: 10px 100px;  
+    text-decoration: none;  
+  }  
+  a:active{  
+  background-color: rgb(18, 18, 236);  
+  color: white;  
+  }  
+  li a:hover {  
+    background-color: rgb(44, 176, 216);  
+    color: white;  
+  } 
+  .form{
+      border-style: dashed;
+      border-color: blueviolet;
+      border-width: .1em;
+      border-radius: 1em;
+      padding:.2em .5em .5em .5em;      
+  }
+  fieldset{
+      border:0;
+  }
+  .legend{
+      color:darkmagenta;
+      text-decoration:dashed;
+  }
+  body{
+      background-color: antiquewhite;
+      font-family: cursive;
+  }
+  h1{
+      color:rgb(50, 2, 66);
+      text-decoration: wavy rgb(187, 48, 10) solid .2em;
+  }
+  hr{
+    border-style: solid;
+    border-color: blueviolet;
+    height: 1px;
+  }
+  input[type=text]{
+    border:none;
+    border-bottom: 2px solid blueviolet;
+    border-color: blueviolet;
+    color:darkmagenta;
+    background-color: antiquewhite;
+    font-family:'Times New Roman', Times, serif;
+  }
+  input[type=password]{
+    border:none;
+    border-bottom: 2px solid blueviolet;
+    border-color: blueviolet;
+    color:darkmagenta;
+    background-color: antiquewhite;
+  }
+  input[type=number]{
+    border:none;
+    border-bottom: 2px solid blueviolet;
+    border-color: blueviolet;
+    color:darkmagenta;
+    background-color: antiquewhite;
+  }
+  input[type=email]{
+    border:none;
+    border-bottom: 2px solid blueviolet;
+    border-color: blueviolet;
+    color:darkmagenta;
+    background-color: antiquewhite;
+  }
+  input[type=date]{
+    background-color: antiquewhite;
+  }
+  button{
+    background-color: blueviolet;
+    color:antiquewhite;
+    margin-left: 45.5vw;
+  }
+  .language{
+    background-image: url(https://www.codingem.com/wp-content/uploads/2021/10/juanjo-jaramillo-mZnx9429i94-unsplash-1024x683.jpg);
+    color:white;
+  }
+  img{
+    opacity: 0.01;
+  }
